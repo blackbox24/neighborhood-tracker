@@ -1,0 +1,17 @@
+{
+  "name": "Neighborhood Essential Delivery Tracker",
+  "short_name": "Delivery Tracker",
+  "description": "Track local deliveries and essential goods in real-time.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f4f7f6",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
