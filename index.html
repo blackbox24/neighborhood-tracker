@@ -11,6 +11,9 @@
     <header>
         <h1>📍 Local Delivery Tracker</h1>
         <div id="connection-status" class="online">Connected Online</div>
+        <div>
+            <button onclick="googleSomething()">Click me</button>
+        </div>
     </header>
 
     <main>
@@ -24,5 +27,10 @@
     </main>
 
     <script src="app.js"></script>
+    <script type="text/javascript">
+        function googleSomething(){
+            fetch("https://google.com").catch(e => console.log(e));
+        }
+    </script>
 </body>
 </html>
